@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>JVAV的好处都有什么 · GitBook</title>
+        <title>Jvav对象和类 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="README3.html" />
+    <link rel="next" href="README6.html" />
     
     
-    <link rel="prev" href="./" />
+    <link rel="prev" href="README4.html" />
     
 
     </head>
@@ -102,7 +102,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2" data-path="README2.html">
+        <li class="chapter " data-level="1.2" data-path="README2.html">
             
                 <a href="README2.html">
             
@@ -141,7 +141,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="README5.html">
+        <li class="chapter active" data-level="1.5" data-path="README5.html">
             
                 <a href="README5.html">
             
@@ -236,7 +236,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >JVAV的好处都有什么</a>
+        <a href="." >Jvav对象和类</a>
     </h1>
 </div>
 
@@ -251,13 +251,26 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="jvav&#x7684;&#x597D;&#x5904;&#x6709;&#x4EC0;&#x4E48;&#xFF1F;&#x8BF4;&#x5BF9;&#x4E86;&#x5C31;&#x7ED9;&#x4ED6;">JVAV&#x7684;&#x597D;&#x5904;&#x6709;&#x4EC0;&#x4E48;&#xFF1F;&#x8BF4;&#x5BF9;&#x4E86;&#x5C31;&#x7ED9;&#x4ED6;</h1>
-<ul>
-<li>Jvav&#x4ED6;&#x53EF;&#x4EE5;&#x8BA9;&#x4F60;&#x7838;&#x952E;&#x76D8;&#xFF0C;&#x7838;&#x7535;&#x8111;&#xFF0C;&#x7838;&#x9F20;&#x6807;.....<br></li>
-<li>&#x5B83;&#x53EF;&#x4EE5;&#x4E0D;&#x65AD;&#x81EA;&#x5DF1;&#x4EA7;&#x751F;bug&#xFF0C;&#x8BA9;&#x4F60;&#x4F53;&#x9A8C;&#x7F16;&#x7A0B;&#x771F;&#x6B63;&#x7684;&#x6124;&#x6012;&#xFF0C;&#x4ECE;&#x800C;&#x8FDC;&#x79BB;&#x7F16;&#x7A0B;<br></li>
-<li>&#x5B83;&#x8FD8;&#x4F1A;&#x65F6;&#x4E0D;&#x65F6;&#x7684;&#x62BD;&#x98CE;&#xFF0C;&#x8FD0;&#x884C;&#x65F6;&#x968F;&#x673A;&#x6253;&#x5370;&#x4E00;&#x5806;&#x4E71;&#x7801;&#xFF0C;&#x8BA9;&#x4F60;&#x5904;&#x4E8E;&#x56F0;&#x60D1;<br></li>
-</ul>
-<p>&#x6CE8;:&#x8FF7;&#x4F60;&#x4E16;&#x754C;&#x7531;Jvav&#x7F16;&#x5199;&#xFF0C;Jvav&#x66FE;&#x7ECF;&#x8DDF;&#x8FF7;&#x4F60;&#x4E16;&#x754C;&#x591A;&#x6B21;&#x5408;&#x4F5C;&#x3002;</p>
+                                <h1 id="jvav&#x5BF9;&#x8C61;&#x548C;&#x7C7B;">JVAV&#x5BF9;&#x8C61;&#x548C;&#x7C7B;</h1>
+<p>&#x662F;&#x7684;&#xFF0C;&#x7C7B;&#x53EA;&#x6709;&#x4E3B;&#x7C7B;&#x548C;jvav&#x63D0;&#x4F9B;&#x7684;&#x6C99;&#x96D5;&#x7C7B;&#xFF01;<br>
+&#x800C;&#x5BF9;&#x8C61;&#x4E5F;&#x4E00;&#x6837;&#xFF0C;&#x4F60;&#x53EA;&#x80FD;new&#x81EA;&#x5DF1;&#x6216;&#x8005;jvav&#x63D0;&#x4F9B;&#x7684;&#x6C99;&#x96D5;&#x7C7B;<br>
+jvav&#x6C38;&#x8FDC;&#x9075;&#x5FAA;&#x64CD;&#x86CB;&#x5199;&#x6CD5;</p>
+<h2 id="&#x7C7B;">&#x7C7B;</h2>
+<p>&#x7C7B;&#x662F;&#x53EF;&#x4EE5;&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#x7684;&#x6A21;&#x677F;</p>
+<pre><code class="lang-html">//FuckYouWorld&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x7C7B;&#xFF0C;&#x4E3B;&#x4E0D;&#x8FC7;&#x4ED6;&#x662F;&#x4E3B;&#x7C7B;&#x7F62;&#x4E86;
+public class FuckYouWorld {
+    public static void main() {
+    }
+}
+</code></pre>
+<h2 id="&#x5BF9;&#x8C61;">&#x5BF9;&#x8C61;</h2>
+<p>&#x4E0A;&#x6587;&#x6240;&#x8FF0;&#xFF0C;&#x53EA;&#x80FD;new&#x7684;&#x4E5F;&#x5C31;&#x672C;&#x8EAB;&#x548C;jvav&#x63D0;&#x4F9B;&#x7684;&#x5BF9;&#x8C61;
+&#x5BF9;&#x8C61;&#x662F;&#x4F7F;&#x7528;new&#x521B;&#x5EFA;&#x7684;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;</p>
+<pre><code class="lang-html">/*&#x7531;&#x4E8E;jvav&#x53D6;&#x6D88;&#x4E86;&#x5F62;&#x53C2;&#x548C;&#x5B9E;&#x53C2;&#x7684;&#x673A;&#x5236;
+&#x4F60;&#x4E0D;&#x80FD;&#x4F20;&#x53C2;
+*/
+String str = new String();
+</code></pre>
 
                                 
                                 </section>
@@ -285,12 +298,12 @@
 
             
                 
-                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 什么是JVAV">
+                <a href="README4.html" class="navigation navigation-prev " aria-label="Previous page: Jvav基础语法">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="README3.html" class="navigation navigation-next " aria-label="Next page: Jvav开发环境配置">
+                <a href="README6.html" class="navigation navigation-next " aria-label="Next page: Jvav基本数据类型">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -301,7 +314,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"JVAV的好处都有什么","level":"1.2","depth":1,"next":{"title":"Jvav开发环境配置","level":"1.3","depth":1,"path":"README3.md","ref":"README3.md","articles":[]},"previous":{"title":"什么是JVAV","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README2.md","mtime":"2020-05-03T07:54:39.532Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-03T07:44:11.218Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Jvav对象和类","level":"1.5","depth":1,"next":{"title":"Jvav基本数据类型","level":"1.6","depth":1,"path":"README6.md","ref":"README6.md","articles":[]},"previous":{"title":"Jvav基础语法","level":"1.4","depth":1,"path":"README4.md","ref":"README4.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README5.md","mtime":"2020-05-03T10:25:39.933Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-03T07:44:11.218Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
